@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>album</title>
+<style type="text/css">
+@import url("index.css");
+body{
+	width:100%;
+	height:100%;
+	 background:url(images/bj1.jpg);
+	 background-size:100%;
+}
+#wrap{
+	width:80%;
+	height:160px;
+	border:1px solid black;
+	position:relative;
+	margin:5px 10%;
+	background:#F5E0E3;
+	overflow:hidden;
+}
+#wrap ul{
+	margin:0px;
+	padding:0px;
+	position:absolute;
+}
+#wrap ul li{
+	list-style:none;
+	float:left;
+	margin:5px 10px;
+}
+#wrap ul li img{
+	width:200px;
+	height:150px;
+	cursor:pointer;
+}
+.direction{
+	width:120px;
+	margin:10px auto;
+}
+.direction img{
+	border:1px dotted pink;
+	cursor:pointer;
+}
+.if{
+	width:500px;
+	height:500px;
+	margin:auto;
+}
+
+</style>
+<script type="text/javascript" src="showpic.js">
+</script>
+</head>
+<body onLoad="showpics()">
+<div><a href="index.html"><img src="images/mc.png" width="330" height="114" /></a></div>
+<div class="nav">
+  <ul>
+   <li><a href="index.html">首页</a></li>
+   <li><a href="album.html">相册</a></li>
+   <li><a href="account.html">科目分类</a></li>
+   <li><a href="type.html">种类</a></li>
+   <li><a href="classify.html">主要分类</a></li>
+   <li><a href="notice.html">注意事项</a></li>
+ </ul>
+</div>
+
+
+<div class="direction">
+<img src="images/left.png" alt="" id="button1">
+<img src="images/right.png" alt="" id="button2">
+</div>
+<div id="wrap" align="center">
+<ul style="width: 2640px; left: -1236px;">
+
+<li><a href="images/1.jpg" target="content"><img class="none" src="images/1.jpg" alt="2"></a></li>
+<li><a href="images/2.jpg" target="content"><img class="none" src="images/2.jpg" alt="2" ></a></li>
+<li><a href="images/3.jpg" target="content"><img class="none" src="images/3.jpg" alt="3" ></a></li>
+<li><a href="images/4.jpg" target="content"><img class="none" src="images/4.jpg" alt="4" ></a></li>
+<li><a href="images/5.jpg" target="content"><img class="none" src="images/5.jpg" alt="5" ></a></li>
+<li><a href="images/6.jpg" target="content"><img class="none" src="images/6.jpg" alt="6" ></a></li>
+
+
+<li><a href="images/1.jpg" target="content"><img class="none" src="images/1.jpg" alt="2"></a></li>
+<li><a href="images/2.jpg" target="content"><img class="none" src="images/2.jpg" alt="2" ></a></li>
+<li><a href="images/3.jpg" target="content"><img class="none" src="images/3.jpg" alt="3" ></a></li>
+<li><a href="images/4.jpg" target="content"><img class="none" src="images/4.jpg" alt="4" ></a></li>
+<li><a href="images/5.jpg" target="content"><img class="none" src="images/5.jpg" alt="5" ></a></li>
+<li><a href="images/6.jpg" target="content"><img class="none" src="images/6.jpg" alt="6" ></a></li>
+</ul>
+</div>
+<center>
+<iframe  name="content" class="if"></iframe>
+</center>
+
+</body></html>
